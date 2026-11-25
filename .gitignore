@@ -1,0 +1,21 @@
+# Build output (do not commit .exe / installers)
+build/
+dist/
+*.exe
+*.zip
+*.rar
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Fonts are Microsoft-licensed: not redistributable in a public repo
+fonts/
+
+# Local / unrelated files
+main.spec
+main_backup_*.py
+yqr-promo/
+qr-code-designsjpg_800_46.webp
